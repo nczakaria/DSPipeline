@@ -1,5 +1,7 @@
-# Data P![SUDS](https://github.com/nczakaria/DSPipeline/assets/72665909/0f10921b-15b4-4bce-957f-41980633b2f7)
-reprocessing
+![SUDS](https://github.com/nczakaria/DSPipeline/assets/72665909/0f10921b-15b4-4bce-957f-41980633b2f7)
+
+
+# Data Preprocessing
 This is a data-preprocessing tool to analyze EEG, ECG, and Audio data for sleep anlysis 
 
 ## How to use it
