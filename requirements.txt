@@ -1,0 +1,9 @@
+yt-dlp==latest_version
+pydub==latest_version
+librosa==latest_version
+numpy==latest_version
+matplotlib==latest_version
+pandas==latest_version
+scipy==latest_version
+wfdb==latest_version
+mne==latest_version
