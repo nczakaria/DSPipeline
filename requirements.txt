@@ -7,3 +7,5 @@ pandas==latest_version
 scipy==latest_version
 wfdb==latest_version
 mne==latest_version
+lime==latest_version
+shap==latest_version
