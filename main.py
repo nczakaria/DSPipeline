@@ -1,4 +1,4 @@
-from interface import DataLoaderUI
+from User_Inteface import DataLoaderUI
 import tkinter as tk
 
 def main():
