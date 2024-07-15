@@ -3,7 +3,7 @@ import subprocess
 import os
 from pydub import AudioSegment 
 
-number = 11
+number = 1
 
 
 def download_and_process_video(video_id, start_time, end_time, video_type, save_path, ffmpeg_location=None):
@@ -54,7 +54,12 @@ def process_csv(csv_file_path, ffmpeg_location=None):
             end_time = float(row[2])
             download_and_process_video(video_id, start_time, end_time, video_type, save_path, ffmpeg_location)
 
+# Don't change this
+rd = r'Data/Audio_data'
+
 # Replace 'your_file.csv' with the path to your CSV file
-csv_file_path = r'Audio_data_collection\traffic_data.csv'
+csv_file_name = 'traffic_data.csv'
+csv_file_path = os.path.join(rd, csv_file_name)
+
 ffmpeg_location = r'C:\ffmpeg'
 process_csv(csv_file_path, ffmpeg_location=ffmpeg_location)
